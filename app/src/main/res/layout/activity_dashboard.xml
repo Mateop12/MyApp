@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F3F4F6">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Tarjeta del primer videojuego -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Imagen del videojuego -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/imagen"
+                    android:scaleType="centerCrop" />
+
+                <!-- Título del videojuego -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Quest of Eldoria"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000" />
+
+                <!-- Descripción del videojuego -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Un épico juego de rol en mundo abierto donde los jugadores asumen el papel de un héroe destinado a salvar el reino de Eldoria. Explora vastos paisajes, enfréntate a temibles criaturas, y desentraña los secretos de una antigua civilización."
+                    android:textSize="14sp"
+                    android:textColor="#555"
+                    android:layout_marginTop="4dp" />
+
+                <!-- Botón de más información -->
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Más Información"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="#8F99A6"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tarjeta del segundo videojuego -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Imagen del videojuego -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/imagen"
+                    android:scaleType="centerCrop" />
+
+                <!-- Título del videojuego -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CyberRacer: Neon Streets"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000" />
+
+                <!-- Descripción del videojuego -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Un trepidante juego de carreras ambientado en un mundo futurista y lleno de luces de neón. Compite contra otros pilotos en motocicletas antigravitatorias a través de las calles de una megaciudad cibernética."
+                    android:textSize="14sp"
+                    android:textColor="#555"
+                    android:layout_marginTop="4dp" />
+
+                <!-- Botón de más información -->
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Más Información"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="#8F99A6"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tarjeta del tercer videojuego -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Imagen del videojuego -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/imagen"
+                    android:scaleType="centerCrop" />
+
+                <!-- Título del videojuego -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mystic Garden"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000" />
+
+                <!-- Descripción del videojuego -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Un relajante y encantador juego de puzles donde los jugadores deben restaurar un jardín mágico. Resuelve rompecabezas para desbloquear nuevas plantas, criaturas mágicas y estructuras."
+                    android:textSize="14sp"
+                    android:textColor="#555"
+                    android:layout_marginTop="4dp" />
+
+                <!-- Botón de más información -->
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Más Información"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="#8F99A6"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
